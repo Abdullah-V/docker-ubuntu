@@ -5,7 +5,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y ubuntu-desktop
 
 RUN rm /run/reboot-required*
 
-RUN useradd -m -s /bin/bash -G sudo mhkarazeybek
+RUN useradd -m -s /bin/bash -G sudo abdullah
 
 RUN apt-get update -y
 RUN apt-get install -y xrdp
